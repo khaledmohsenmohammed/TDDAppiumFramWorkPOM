@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TDDAppiumFramWorkPOM(failed)">
+    <classes>
+      <class name="com.qa.tests.LoginTests">
+        <methods>
+          <include name="afterTest"/>
+          <include name="invalidUserName"/>
+          <include name="beforeClassFunction"/>
+          <include name="beforeTest"/>
+          <include name="afterClassFunction"/>
+          <include name="beforeMethodFunction"/>
+        </methods>
+      </class> <!-- com.qa.tests.LoginTests -->
+    </classes>
+  </test> <!-- TDDAppiumFramWorkPOM(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

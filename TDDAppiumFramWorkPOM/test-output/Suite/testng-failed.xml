@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.qa.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="emulator" value="false"/>
+    <parameter name="platformVersion" value="Any Device version"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="Any Device name"/>
+    <classes>
+      <class name="com.qa.tests.LoginTests">
+        <methods>
+          <include name="afterMethodFunctionBaseClass"/>
+          <include name="afterMethodFunction"/>
+          <include name="afterTest"/>
+          <include name="invalidUserName"/>
+          <include name="beforeClassFunction"/>
+          <include name="beforeTest"/>
+          <include name="afterClassFunction"/>
+          <include name="beforeMethodFunctionBaseClass"/>
+          <include name="beforeMethodFunction"/>
+        </methods>
+      </class> <!-- com.qa.tests.LoginTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

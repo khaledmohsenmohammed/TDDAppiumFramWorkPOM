@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[This is the sample screenshot]]>
+    </line>
+    <line>
+      <![CDATA[<a href='C:\Users\Khaled Mohsen\IdeaProjects\TDDAppiumFramWorkPOM\screenshot\Android_Any Device version_Any Device name_\2023-10-01-13-04-14\LoginTests\invalidUserName.png'> <img src='C:\Users\Khaled Mohsen\IdeaProjects\TDDAppiumFramWorkPOM\screenshot\Android_Any Device version_Any Device name_\2023-10-01-13-04-14\LoginTests\invalidUserName.png' height='100' width='100'/> </a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-10-01T13:04:14 EET" name="Suite" finished-at="2023-10-01T13:05:06 EET" duration-ms="51616">
+    <groups>
+    </groups>
+    <test started-at="2023-10-01T13:04:14 EET" name="Test" finished-at="2023-10-01T13:05:06 EET" duration-ms="51616">
+      <class name="com.qa.tests.LoginTests">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.tests.LoginTests@359f7cdf]" started-at="2023-10-01T13:04:14 EET" name="beforeTest" finished-at="2023-10-01T13:04:30 EET" duration-ms="16200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Any Device name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClassFunction()[pri:0, instance:com.qa.tests.LoginTests@359f7cdf]" started-at="2023-10-01T13:04:30 EET" name="beforeClassFunction" finished-at="2023-10-01T13:04:31 EET" duration-ms="605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassFunction -->
+        <test-method is-config="true" signature="beforeMethodFunctionBaseClass()[pri:0, instance:com.qa.tests.LoginTests@359f7cdf]" started-at="2023-10-01T13:04:31 EET" name="beforeMethodFunctionBaseClass" finished-at="2023-10-01T13:04:31 EET" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodFunctionBaseClass -->
+        <test-method is-config="true" signature="beforeMethodFunction(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@359f7cdf]" started-at="2023-10-01T13:04:31 EET" name="beforeMethodFunction" finished-at="2023-10-01T13:04:32 EET" duration-ms="768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.LoginTests.emptyUserName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodFunction -->
+        <test-method signature="emptyUserName()[pri:0, instance:com.qa.tests.LoginTests@359f7cdf]" started-at="2023-10-01T13:04:32 EET" name="emptyUserName" finished-at="2023-10-01T13:04:38 EET" duration-ms="6240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUserName -->
+        <test-method is-config="true" signature="afterMethodFunctionBaseClass(org.testng.ITestResult)[pri:0, instance:com.qa.tests.LoginTests@359f7cdf]" started-at="2023-10-01T13:04:38 EET" name="afterMethodFunctionBaseClass" finished-at="2023-10-01T13:04:39 EET" duration-ms="880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=emptyUserName status=SUCCESS method=LoginTests.emptyUserName()[pri:0, instance:com.qa.tests.LoginTests@359f7cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodFunctionBaseClass -->
+        <test-method is-config="true" signature="afterMethodFunction(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@359f7cdf]" started-at="2023-10-01T13:04:38 EET" name="afterMethodFunction" finished-at="2023-10-01T13:04:38 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.LoginTests.emptyUserName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodFunction -->
+        <test-method is-config="true" signature="beforeMethodFunctionBaseClass()[pri:0, instance:com.qa.tests.LoginTests@359f7cdf]" started-at="2023-10-01T13:04:39 EET" name="beforeMethodFunctionBaseClass" finished-at="2023-10-01T13:04:40 EET" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodFunctionBaseClass -->
+        <test-method is-config="true" signature="beforeMethodFunction(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@359f7cdf]" started-at="2023-10-01T13:04:40 EET" name="beforeMethodFunction" finished-at="2023-10-01T13:04:40 EET" duration-ms="171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.LoginTests.invalidPass()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodFunction -->
+        <test-method signature="invalidPass()[pri:0, instance:com.qa.tests.LoginTests@359f7cdf]" started-at="2023-10-01T13:04:40 EET" name="invalidPass" finished-at="2023-10-01T13:04:44 EET" duration-ms="3893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPass -->
+        <test-method is-config="true" signature="afterMethodFunction(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@359f7cdf]" started-at="2023-10-01T13:04:44 EET" name="afterMethodFunction" finished-at="2023-10-01T13:04:44 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.LoginTests.invalidPass()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodFunction -->
+        <test-method is-config="true" signature="afterMethodFunctionBaseClass(org.testng.ITestResult)[pri:0, instance:com.qa.tests.LoginTests@359f7cdf]" started-at="2023-10-01T13:04:44 EET" name="afterMethodFunctionBaseClass" finished-at="2023-10-01T13:04:45 EET" duration-ms="764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidPass status=SUCCESS method=LoginTests.invalidPass()[pri:0, instance:com.qa.tests.LoginTests@359f7cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodFunctionBaseClass -->
+        <test-method is-config="true" signature="beforeMethodFunctionBaseClass()[pri:0, instance:com.qa.tests.LoginTests@359f7cdf]" started-at="2023-10-01T13:04:45 EET" name="beforeMethodFunctionBaseClass" finished-at="2023-10-01T13:04:45 EET" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodFunctionBaseClass -->
+        <test-method is-config="true" signature="beforeMethodFunction(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@359f7cdf]" started-at="2023-10-01T13:04:45 EET" name="beforeMethodFunction" finished-at="2023-10-01T13:04:45 EET" duration-ms="129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.LoginTests.invalidUserName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodFunction -->
+        <test-method signature="invalidUserName()[pri:0, instance:com.qa.tests.LoginTests@359f7cdf]" started-at="2023-10-01T13:04:45 EET" name="invalidUserName" finished-at="2023-10-01T13:04:58 EET" duration-ms="12731" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Username and password do not match any user in this service.] but found [Username and password do not match any user in this service.fdf]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Username and password do not match any user in this service.] but found [Username and password do not match any user in this service.fdf]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1413)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at org.testng.Assert.assertEquals(Assert.java:665)
+at com.qa.tests.LoginTests.invalidUserName(LoginTests.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[This is the sample screenshot]]>
+            </line>
+            <line>
+              <![CDATA[<a href='C:\Users\Khaled Mohsen\IdeaProjects\TDDAppiumFramWorkPOM\screenshot\Android_Any Device version_Any Device name_\2023-10-01-13-04-14\LoginTests\invalidUserName.png'> <img src='C:\Users\Khaled Mohsen\IdeaProjects\TDDAppiumFramWorkPOM\screenshot\Android_Any Device version_Any Device name_\2023-10-01-13-04-14\LoginTests\invalidUserName.png' height='100' width='100'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidUserName -->
+        <test-method is-config="true" signature="afterMethodFunctionBaseClass(org.testng.ITestResult)[pri:0, instance:com.qa.tests.LoginTests@359f7cdf]" started-at="2023-10-01T13:04:59 EET" name="afterMethodFunctionBaseClass" finished-at="2023-10-01T13:04:59 EET" duration-ms="794" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidUserName status=FAILURE method=LoginTests.invalidUserName()[pri:0, instance:com.qa.tests.LoginTests@359f7cdf] output=This is the sample screenshot]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodFunctionBaseClass -->
+        <test-method is-config="true" signature="afterMethodFunction(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@359f7cdf]" started-at="2023-10-01T13:04:59 EET" name="afterMethodFunction" finished-at="2023-10-01T13:04:59 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.LoginTests.invalidUserName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodFunction -->
+        <test-method is-config="true" signature="beforeMethodFunctionBaseClass()[pri:0, instance:com.qa.tests.LoginTests@359f7cdf]" started-at="2023-10-01T13:04:59 EET" name="beforeMethodFunctionBaseClass" finished-at="2023-10-01T13:05:00 EET" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodFunctionBaseClass -->
+        <test-method is-config="true" signature="beforeMethodFunction(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@359f7cdf]" started-at="2023-10-01T13:05:00 EET" name="beforeMethodFunction" finished-at="2023-10-01T13:05:00 EET" duration-ms="150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.LoginTests.successfullyLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodFunction -->
+        <test-method signature="successfullyLogin()[pri:0, instance:com.qa.tests.LoginTests@359f7cdf]" started-at="2023-10-01T13:05:00 EET" name="successfullyLogin" finished-at="2023-10-01T13:05:05 EET" duration-ms="4614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfullyLogin -->
+        <test-method is-config="true" signature="afterMethodFunction(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.LoginTests@359f7cdf]" started-at="2023-10-01T13:05:05 EET" name="afterMethodFunction" finished-at="2023-10-01T13:05:05 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.LoginTests.successfullyLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodFunction -->
+        <test-method is-config="true" signature="afterMethodFunctionBaseClass(org.testng.ITestResult)[pri:0, instance:com.qa.tests.LoginTests@359f7cdf]" started-at="2023-10-01T13:05:05 EET" name="afterMethodFunctionBaseClass" finished-at="2023-10-01T13:05:05 EET" duration-ms="946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=successfullyLogin status=SUCCESS method=LoginTests.successfullyLogin()[pri:0, instance:com.qa.tests.LoginTests@359f7cdf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodFunctionBaseClass -->
+        <test-method is-config="true" signature="afterClassFunction()[pri:0, instance:com.qa.tests.LoginTests@359f7cdf]" started-at="2023-10-01T13:05:05 EET" name="afterClassFunction" finished-at="2023-10-01T13:05:06 EET" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassFunction -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.qa.tests.LoginTests@359f7cdf]" started-at="2023-10-01T13:05:06 EET" name="afterTest" finished-at="2023-10-01T13:05:06 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.qa.tests.LoginTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Suite" parallel="false"><!-- parallel if you need to start run the parallel  test chang the values from false to true -->
+
+    <test name="Test">
+        <listeners>
+            <listener class-name="com.qa.listeners.TestListener"/>
+        </listeners>
+        <parameter name="emulator" value="false"/>
+        <parameter name="platformName" value="Android"/><!-- for passing the platform name if you need to start run the Android & IOS parallel  -->
+        <parameter name="deviceName" value="Any Device name"/>
+        <parameter name="platformVersion" value="Any Device version"/>
+
+        <classes>
+<!--            <class name="com.qa.tests.LoginTests"/>-->
+            <class name="com.qa.tests.LoginTests">
+<!--                <methods>-->
+<!--                    <include name="validateProductOnProductsDetailisPage"/>-->
+<!--                </methods>-->
+            </class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
